@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'DIN 2014 Light';
+    src: url('DIN2014-Regular.otf');
+    }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DIN 2014 Light';
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: black; 
+    height: 30px; 
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.navbar{
+    display: flex; 
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+.navbar nav{
+    align-items: center;
+    display: flex;
+    padding: 0px 50px;
+}
+.navbar nav ul li{
+    display: inline-block;
+
+}
+.navbar nav ul li a{
+    color: black;
+    font-weight: bold;
+}
+.main-section{
+    width: 100%; 
+    height: 600px; 
+    background-image: url(https://www.casio.com/content/casio/locales/in/en/products/_jcr_content/root/responsivegrid/carousel_copy/image_1970305012_cop.casiocoreimg.jpeg/1676466300218/banner-flare-red-pc.jpeg);
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+}
+.section-calculator{
+    height: 700px; 
+    width: 100%; 
+    background-image: url(https://www.casio.com/content/casio/locales/in/en/products/_jcr_content/root/responsivegrid/teaser_1897153092_co.casiocoreimg.png/1667955227009/scientific-calculators-notext-cpd-1920x816.png); 
+    background-position: center; 
+    background-size: cover;
+}
+.calculator-text{
+    height: 700px; 
+    width: 100%; 
+    display: flex; 
+    align-items: center;
+}
+.product-list{
+    height: 500px; 
+    width: 100%; 
+    display: flex; 
+    align-items: center;
+}
+.product-items{
+    width: 25%; 
+    height: 400px; 
+    display: flex; 
+    justify-content: center;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.product:hover{
+    border: 1px solid black;
+}
+.category{
+    width: 23%; 
+    height: 400px; 
+    display: flex; 
+    justify-content: center; 
+    padding: 0px 5px;
+}
+.new-img{
+    width: 250px; 
+    height: 300px; 
+    background-color: #f5f5f5; 
+    display: flex; 
+    justify-content: center;
+}
+.items{
+    height: 500px; 
+    display: flex; 
+    align-items: center; 
+    padding: 0px 40px;
+}
+.item{
+    width: 23%; 
+    height: 400px; 
+    display: flex; 
+    justify-content: center; 
+    padding: 0px 5px;
+}
+.items-img{
+    display: flex; 
+    flex-direction: column; 
+    width: 100%;
+}
+.image{
+    overflow: hidden;
+}
+.image img{
+    transition: transform .4s;
+}
+.image img:hover{
+    transform: scale(1.1);
+}
+.bottom-line{
+    width: 100%; 
+    float: left; 
+    margin-top: 20px; 
+    justify-content: center; 
+    display: flex;
+}
+.product-list{
+    height: 500px; 
+    display: flex; 
+    align-items: center;
+    width: 95%;
+    padding: 0px 30px;
+}
+.product-img{
+    overflow: hidden;
+    height: 300px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+.product-img img{
+    transition: transform .4s;
+}
+.product-img img:hover{
+    transform: scale(1.1);
+}
+.footer-list{
+    justify-content: center;
+}
+.footer-list1{
+    display: flex;
+    justify-content: center;
+}
+.footer-list1 ul li{
+    display: inline-block;
+    padding: 50px 80px 0px;
+    font-size: 13px;
+}
+.footer-list2{
+    display: flex;
+    justify-content: center;
+}
+.footer-list2 ul li{
+    display: inline-block;
+    padding: 30px 94px 0px;
+    font-size: 13px;
+}
+.smedia ul li{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: large;
+}
+.smedia ul li a{
+    color: black;
+}
+.smedia{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 100%;
+}
+.tandc{
+    padding-left: 30px;
+    margin-top: 15px;
+}
+.tandc ul li{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: small;
+}
+.tandc ul li a{
+    color: black;
+}
+
